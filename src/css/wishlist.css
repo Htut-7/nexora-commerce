@@ -1,0 +1,146 @@
+.wishlist{
+  padding:120px 80px;
+  min-height:100vh;
+}
+
+.wishlist-container h3{
+  font-size:48px;
+  text-align:center;
+  color:#111;
+  margin-bottom:10px;
+}
+
+.wishlist-container > p{
+  text-align:center;
+  color:#666;
+  font-size:16px;
+  margin-bottom:50px;
+}
+
+.wishlist-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:30px;
+}
+
+.single-wishlist{
+  background:#fff;
+  border:1px solid #eee;
+  border-radius:12px;
+  overflow:hidden;
+  transition:.3s;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.single-wishlist img{
+  width:100%;
+  height:350px;
+  object-fit:cover;
+}
+
+.wishlist-info{
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  flex:1;
+}
+
+.wishlist-info h3{
+  font-size:20px;
+  color:#111;
+  min-height:48px;
+  line-height:1.4;
+}
+
+.wishlist-info p{
+  color:#555;
+  font-size:16px;
+  margin:0;
+}
+
+.wishlist-info span{
+  color:#28a745;
+  font-size:14px;
+  font-weight:500;
+}
+
+.wishlist-catg{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  min-height:36px;
+}
+
+.wishlist-catg span{
+  background:#f5f5f5;
+  color:#444;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:13px;
+}
+
+.wish-btn{
+  padding:0 20px 20px;
+  margin-top:auto;
+}
+
+.wish-btn button{
+  width:100%;
+  height:48px;
+  border:none;
+  border-radius:8px;
+  background:#111;
+  color:#fff;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.wish-btn button:hover{
+  background:#333;
+}
+
+.wish-icon{
+  font-size:16px;
+}
+
+.wishlist-error{
+  text-align:center;
+  color:red;
+  margin-bottom:20px;
+}
+
+.wishlist-spinner{
+  display:block;
+  width:50px;
+  height:50px;
+  margin:40px auto;
+  border:4px solid #eee;
+  border-top:4px solid #111;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+
+@keyframes spin{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+@media(max-width:768px){
+
+  .wishlist{
+    padding:80px 20px;
+  }
+
+  .wishlist-container h3{
+    font-size:36px;
+  }
+
+  .single-wishlist img{
+    height:280px;
+  }
+
+}

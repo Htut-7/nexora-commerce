@@ -1,0 +1,170 @@
+.women{
+  padding:120px 80px;
+}
+
+.women-container{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.women-container h3{
+  font-size:52px;
+  color:#111;
+  margin-bottom:12px;
+  font-weight:700;
+}
+
+.women-container p{
+  font-size:16px;
+  color:#666;
+}
+
+.women-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:35px;
+  align-items:stretch;
+}
+
+.single-women{
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  transition:.3s;
+}
+
+.single-women img{
+  width:100%;
+  height:420px;
+  object-fit:cover;
+}
+
+.women-info{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  padding:20px;
+  flex:1;
+}
+
+.women-info h3{
+  font-size:20px;
+  color:#111;
+  line-height:1.4;
+  min-height:56px;
+}
+
+.women-info p{
+  font-size:15px;
+  color:#555;
+  margin:0;
+}
+
+.women-catg{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  min-height:40px;
+  margin-top:5px;
+}
+
+.women-catg span{
+  padding:6px 14px;
+  background:#f5f5f5;
+  color:#555;
+  font-size:13px;
+  border-radius:30px;
+  display:inline-flex;
+  align-items:center;
+}
+
+.single-women > p{
+  color:#28a745;
+  font-size:14px;
+  font-weight:500;
+  margin-bottom:15px;
+}
+
+.women-action{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-top:auto;
+}
+
+.women-action button{
+  width:50px;
+  height:50px;
+  border:none;
+  background:#111;
+  color:#fff;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.women-action button:hover{
+  background:#333;
+}
+
+.women-icon{
+  font-size:18px;
+}
+
+.women-action a{
+  flex:1;
+  height:50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  border:1px solid #111;
+  color:#111;
+  font-size:14px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.women-action a:hover{
+  background:#111;
+  color:#fff;
+}
+
+.women-spinner{
+  display:block;
+  width:50px;
+  height:50px;
+  margin:40px auto;
+  border:4px solid #eee;
+  border-top:4px solid #111;
+  border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+
+.women-error{
+  text-align:center;
+  color:#d32f2f;
+  margin-bottom:25px;
+}
+
+@keyframes spin{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+@media(max-width:768px){
+
+  .women{
+    padding:80px 20px;
+  }
+
+  .women-container h3{
+    font-size:38px;
+  }
+
+  .single-women img{
+    height:320px;
+  }
+
+}
