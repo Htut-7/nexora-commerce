@@ -58,7 +58,7 @@ export default function Profile() {
         />
 
         <div className='profile-btn'>
-          <button type='save' disabled={loading}>
+          <button type='submit' disabled={loading}>
             {loading ? <span className='profile-spinner'></span> : 'Save'}
           </button>
         </div>
