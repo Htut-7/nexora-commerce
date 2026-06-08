@@ -31,6 +31,7 @@ export default function Profile() {
     <form className='profile-form' onSubmit={saveProfile}>
       <div className='profile-container'>
         <h3>Edit Profile</h3>
+        <h3>Edit Profile (v2)</h3>
         <p>Update your personal information, contact details, and account preferences to keep your Nexora Fashion profile up to date.</p>
       </div>
 
