@@ -4,7 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
+
 pnpm-debug.log*
 lerna-debug.log*
 
@@ -161,4 +161,4 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
->>>>>>> 25860d6bc53e2e8e82495f400e2beea4437d62a3
+
