@@ -1,3 +1,4 @@
+
 # Nexora Commerce
 
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
@@ -77,3 +78,7 @@ src/
 **Sithu Htut**
 
 GitHub: https://github.com/Htut-7
+=======
+# nexora-commerce
+Modern fashion e-commerce platform built with React, Vite, Firebase Authentication, and Firestore.
+
